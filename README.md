@@ -120,24 +120,7 @@ Tracks:
 ---
 
 ## 🏗️ Architecture
-
-```text
-Frontend (React + Tailwind)
-        ↓
-Cloudflare Pages
-        ↓
-Workers API (Hono)
-        ↓
---------------------------------
-| D1 (Database - metadata)     |
-| KV (Caching + API keys)      |
-| Queues (Background jobs)     |
-| Durable Objects (Rate limit) |
---------------------------------
-```
-
-Cloudflare Workers enable **serverless deployment without infrastructure management**, allowing applications to scale globally with minimal latency ([Cloudflare Docs][1]).
-Additionally, AI workloads can run efficiently on edge infrastructure, reducing latency and improving performance ([OneUptime][2]).
+![Architecture](ai-media-generation.png)
 
 ---
 
