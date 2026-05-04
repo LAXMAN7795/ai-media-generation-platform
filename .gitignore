@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Wrangler local files
+.wrangler/
+.dev.vars
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
